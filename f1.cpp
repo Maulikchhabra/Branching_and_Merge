@@ -31,5 +31,22 @@ class Internal_Exam:public Student
 
  public:
   
-  float math,eng,chem,phy,ads,scm;
+     float math,eng,chem,phy,ads,scm;
+ private:
+    void get_marks()
+  {
+      cout<<"Enter Internal Marks out of 100\n";
+      cout<<"Maths     :";
+      cin>>math;
+      cout<<"English   :";
+      cin>>eng;
+      cout<<"Chemistry :";
+      cin>>chem;
+      cout<<"Physics   :";
+      cin>>phy;
+      cout<<"ADS       :";
+      cin>>ads;
+      cout<<"SCM       :";
+      cin>>scm;
+  }
 };
