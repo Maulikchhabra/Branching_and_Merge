@@ -57,6 +57,7 @@ class Internal_Exam:public Student
       cout<<"\nMarks Entered\nMaths "<<math<<"English "<<eng<<"Chemistry "<<chem<<"Physics "<<phy<<"ADS "<<ads<<"SCM "<<scm;
   }
 };
+//end of child class 1
 >>>>>>> child_class1
 =======
 };
@@ -87,22 +88,8 @@ class Internal_Exam:public Student
          cout<<"\nMarks Entered\nMaths "<<math1<<"English "<<eng1<<"Chemistry "<<chem1<<"Physics "<<phy1<<"ADS "<<ads1<<"SCM "<<scm1;
      }
 };
+//end of child class 2
 >>>>>>> child_class2
-int main()
-{ 
-	result r;
- Internal_Exam a;
-    a.student_Details();
- a.display_student_Details();
-    r.get_marks();
-     r.get_marks1();
-   r.display_marks();
-  r.display_marks1();
-  r.calculate();
-   r.show();
-  return 0;
-}
-
 =======
 };
 
@@ -153,4 +140,20 @@ class result:public Internal_Exam,public External_Exams
     }
    }
  };
+//end of subchild class
 >>>>>>> result_class
+ int main()//main function
+{
+    result r;//object declaration
+ Internal_Exam a;
+    a.student_Details();
+ a.display_student_Details();
+    r.get_marks();
+     r.get_marks1();
+   r.display_marks();
+  r.display_marks1();
+  r.calculate();
+   r.show();
+   //function callings
+  return 0;
+}
