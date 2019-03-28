@@ -18,4 +18,10 @@ class Student
      cout<<"\nEnter your roll no.";
      cin>>rollno;
    }
+     void display_student_Details()
+   {
+      cout<<"\nName    : "<<name;
+      cout<<"\nGender  : "<<gender;
+      cout<<"\nRoll no.: "<<rollno;
+   }
 };   // end of class student (PARENT CLASS)
