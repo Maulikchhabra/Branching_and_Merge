@@ -24,4 +24,20 @@ class Student
       cout<<"\nGender  : "<<gender;
       cout<<"\nRoll no.: "<<rollno;
    }
-};   // end of class student (PARENT CLASS)
+};
+// end of class student (PARENT CLASS)
+int main(void)
+{
+    result r;
+ Internal_Exam a;
+    a.student_Details();    
+ a.display_student_Details();
+    r.get_marks();
+     r.get_marks1();
+   r.display_marks();
+  r.display_marks1();
+  r.calculate(); 
+   r.show();
+  return 0; 
+}
+
