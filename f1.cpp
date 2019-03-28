@@ -24,4 +24,12 @@ class Student
       cout<<"\nGender  : "<<gender;
       cout<<"\nRoll no.: "<<rollno;
    }
-};   // end of class student (PARENT CLASS)
+}; 
+// end of class student (PARENT CLASS)
+class Internal_Exam:public Student
+{
+
+ public:
+  
+  float math,eng,chem,phy,ads,scm;
+};
