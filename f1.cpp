@@ -30,4 +30,21 @@ class Student
 {
   public:
      float math1,eng1,chem1,phy1,ads1,scm1;
+  private:
+      void get_marks1()
+     {
+         cout<<"Enter External Marks out of 100\n";
+         cout<<"Maths     :";
+         cin>>math1;
+         cout<<"English   :";
+         cin>>eng1;
+         cout<<"Chemistry :";
+         cin>>chem1;
+         cout<<"Physics   :";
+         cin>>phy1;
+         cout<<"ADS       :";
+         cin>>ads1;
+         cout<<"SCM       :";
+         cin>>scm1;
+  }
 };
