@@ -46,5 +46,9 @@ class Student
          cin>>ads1;
          cout<<"SCM       :";
          cin>>scm1;
-  }
+     }
+      void display_marks1()
+     {
+         cout<<"\nMarks Entered\nMaths "<<math1<<"English "<<eng1<<"Chemistry "<<chem1<<"Physics "<<phy1<<"ADS "<<ads1<<"SCM "<<scm1;
+     }
 };
