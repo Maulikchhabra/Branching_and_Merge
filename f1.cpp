@@ -49,4 +49,8 @@ class Internal_Exam:public Student
       cout<<"SCM       :";
       cin>>scm;
   }
+    void display_marks()
+  {
+      cout<<"\nMarks Entered\nMaths "<<math<<"English "<<eng<<"Chemistry "<<chem<<"Physics "<<phy<<"ADS "<<ads<<"SCM "<<scm;
+  }
 };
